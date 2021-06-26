@@ -15,6 +15,11 @@
 		A1315E142687021E001BA27D /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1315E132687021E001BA27D /* ComplicationController.swift */; };
 		A1315E162687021F001BA27D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1315E152687021F001BA27D /* Assets.xcassets */; };
 		A1315E192687021F001BA27D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1315E182687021F001BA27D /* Preview Assets.xcassets */; };
+		A1315E29268776EE001BA27D /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1315E28268776EE001BA27D /* Note.swift */; };
+		A1315E2B26877F87001BA27D /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1315E2A26877F87001BA27D /* DetailView.swift */; };
+		A1315E2D26878266001BA27D /* CreditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1315E2C26878266001BA27D /* CreditView.swift */; };
+		A1315E2F268782D7001BA27D /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1315E2E268782D7001BA27D /* HeaderView.swift */; };
+		A1315E33268785DB001BA27D /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1315E32268785DB001BA27D /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +76,11 @@
 		A1315E152687021F001BA27D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1315E182687021F001BA27D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A1315E1A2687021F001BA27D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1315E28268776EE001BA27D /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		A1315E2A26877F87001BA27D /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		A1315E2C26878266001BA27D /* CreditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditView.swift; sourceTree = "<group>"; };
+		A1315E2E268782D7001BA27D /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		A1315E32268785DB001BA27D /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,8 +126,13 @@
 			isa = PBXGroup;
 			children = (
 				A1315E0F2687021E001BA27D /* ContentView.swift */,
+				A1315E2C26878266001BA27D /* CreditView.swift */,
 				A1315E112687021E001BA27D /* NotesOnAppleWatchApp.swift */,
+				A1315E2A26877F87001BA27D /* DetailView.swift */,
+				A1315E2E268782D7001BA27D /* HeaderView.swift */,
+				A1315E32268785DB001BA27D /* SettingsView.swift */,
 				A1315E132687021E001BA27D /* ComplicationController.swift */,
+				A1315E28268776EE001BA27D /* Note.swift */,
 				A1315E152687021F001BA27D /* Assets.xcassets */,
 				A1315E1A2687021F001BA27D /* Info.plist */,
 				A1315E172687021F001BA27D /* Preview Content */,
@@ -260,8 +275,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1315E102687021E001BA27D /* ContentView.swift in Sources */,
+				A1315E2D26878266001BA27D /* CreditView.swift in Sources */,
+				A1315E33268785DB001BA27D /* SettingsView.swift in Sources */,
 				A1315E122687021E001BA27D /* NotesOnAppleWatchApp.swift in Sources */,
 				A1315E142687021E001BA27D /* ComplicationController.swift in Sources */,
+				A1315E2B26877F87001BA27D /* DetailView.swift in Sources */,
+				A1315E29268776EE001BA27D /* Note.swift in Sources */,
+				A1315E2F268782D7001BA27D /* HeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
